@@ -1,0 +1,25 @@
+
+      h1, h2 {
+        color: pink;
+      }
+
+      p {
+        color: black;
+        margin: 0.5em 0;
+      }
+ul {
+  border: 2px solid blue;
+}
+
+ol {
+  border: 2px solid red;
+}
+
+ol, ul {
+  padding: 5px 20px;
+  border-radius: 4px;
+}
+
+em {
+  color: gray;
+}
