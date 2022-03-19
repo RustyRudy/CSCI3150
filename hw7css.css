@@ -14,7 +14,7 @@
 }
 
 h1, h2, h3 {
-  color: skyblue;
+  color: darkred;
   text-align: center;
   font-family: "Sofia", sans-serif;
 }
@@ -40,5 +40,5 @@ ol, ul {
 }
 
 em {
-  color: gray;
+  color: darkblue;
 }
