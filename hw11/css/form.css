@@ -2,7 +2,10 @@
 
 
 /* form styling */
-
+h1 {
+	font-size: 4rem;
+	text-align: center;
+  }
 
 #wrapper {
 	width: 60%;
@@ -14,7 +17,36 @@ div#formcol1 {
 	width: 100%;
 }
 
+label {
+margin-right: 0.3em;
+width: 6.3em;
+display: inline-block;
+text-align: right;
+}
 
+#formcol1 li {
+list-style: none;
+}
+
+input[type="radio"]{
+  margin-left: 0;
+}
+
+legend {
+ font-size: 1.5rem; 
+}
+
+select:focus, select:active, input:focus, input:active, input:focus + label, 
+input:active + label, label[for]:focus, label[for]:active {
+color: #FFF !important;
+background-color: #2f83bb !important;
+}
+
+#formcol1 input.reqfield {
+  background: #FF9;
+}
+
+/*https://jsfiddle.net/9wd17kb2/1/*/
 
 /* end of form css */
 	
